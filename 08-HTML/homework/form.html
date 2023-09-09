@@ -2,33 +2,44 @@
 <html>
     <head> 
         <meta name="viewport" content="width=device-width, initialscale=1.0"> 
-        <title>form</title>      
+        <title>form</title>  
+        <link rel="stylesheet" href="index.css"/>
+        <link rel="stylesheet" href="index.css"/>
+
         </head>
 
 <body>
-    <ul>
-        <li> <a href="index.html">volver al inicio </a></li>
-        <br>
-        <li> <a href="accomodation.html">hoteles </a></li>
-        <br>
-        <li> <a href="visitasyactividades.html">que hacer en rosario </a></li>
-        <br>
-        <li> <a href="entretenimiento.html">Cines y cacinos </a></li>
-        </ul>
-        
+    <nav>
+        <ul>
+
+            <li> <a href="index.html"> <button> Volver al inicio</button> </a></li>
+            
+            <li> <a href="accomodation.html"><button>Hoteles</button> </a></li>
+            
+            <li> <a href="visitasyactividades.html"><button>Actividades</button> </a></li>
+            
+            <li> <a href="entretenimiento.html"><button>Cines y Casinos</button> </a></li>
+            
+            <li> <a href="form.html"><button>Contactanos</button></a></li>
+            </ul>
+       
+
+    </nav>
+    <div class="clearfix"></div>
+<br>
     <form enctype="text/plain" action="mailto:alexsegovia654@gmail.com" method="POST" >
         
-        <label for="name">Nombre de Usuario:</label>
-        <input type="text" id="name" name="name" value=""">
+        <label for="name"><h1>Nombre de Usuario:</h1></label>
+        <input type="text" id="name" name="name" value="">
         <br>
 
-       <label for="email">Introduce tu mail:  </label>
+       <label for="email"><h1>Introduce tu mail: </h1> </label>
         <input type="email" id="email" name="email">
        <br>
        
-       <label for="Mensaje">Escribe tu mensaje:</label>
+       <label for="Mensaje"><h1>Escribe tu mensaje:</h1></label>
        <br>
-        <textarea name="Mensaje" rows="5" cols="33"></textarea>
+        <textarea name="Mensaje" ></textarea>
         <button type="submit">enviar</button>
 
     </form>
